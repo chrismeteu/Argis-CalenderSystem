@@ -1,5 +1,5 @@
 {
-    "name": "EditModeTests",
+    "name": "Argis.Calender.EditModeTests",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
