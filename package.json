@@ -1,5 +1,5 @@
 {
-    "name": "Argis-CalenderSystem",
+    "name": "com.argis.calendersystem",
     "version": "0.0.1",
     "displayName": "Argis Calander System",
     "description": "Calander system for controlling date and time.",
