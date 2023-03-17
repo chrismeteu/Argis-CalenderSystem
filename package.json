@@ -1,0 +1,7 @@
+{
+    "name": "com.Argis.CalanderSystem",
+    "version": "0.0.1",
+    "displayName": "Argis Calander System",
+    "description": "Calander system for controlling date and time.",
+    "unity": "2020.3"
+}
