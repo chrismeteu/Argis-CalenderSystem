@@ -5,6 +5,30 @@ namespace Argis.CalenderSystem.Runtime
     /// <summary>
     /// Extenstion class for manipulating dates and times.
     /// </summary>
+    /// <example>
+    /// Here are some examples of ISO 8601 date/time formats:
+    ///
+    ///    1. Date only(YYYY-MM-DD):
+    ///       2023-03-20
+    ///    2. Time only(hh:mm:ss):
+    ///       14:30:00
+    ///       
+    ///    3. Date and time(YYYY-MM-DDThh:mm:ss):
+    ///       2023-03-20T14:30:00
+    /// 
+    ///    4. Date and time with time zone(YYYY-MM-DDThh:mm:ssZ or YYYY-MM-DDThh:mm:ss±hh:mm):
+    ///       2023-03-20T14:30:00Z(UTC time)
+    ///       2023-03-20T14:30:00+02:00 (2 hours ahead of UTC)
+    ///       
+    ///    5. Date and time with fractional seconds:
+    ///       2023-03-20T14:30:00.123456Z
+    /// 
+    ///    6. Duration(PnYnMnDTnHnMnS):
+    ///       P1Y2M3DT4H5M6S(1 year, 2 months, 3 days, 4 hours, 5 minutes, and 6 seconds)
+    ///
+    ///    7. Week date(YYYY-Www-D):
+    ///       2023-W12-1 (Monday of the 12th week of 2023)
+    /// </example>
     public static class DateTimeExtensions
     {
         /// <summary>
