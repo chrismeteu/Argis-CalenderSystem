@@ -3,10 +3,9 @@
     "version": "0.0.2",
     "displayName": "Argis Calander System",
     "description": "Calander system for controlling date and time.",
-    "unity": "2020.3",
     "author": {
         "name": "Argis",
-        "email": "chris.anderson@argis.com",
+        "email": "techsupport@argissolutions.com",
         "url": "https://www.argis.com"
     }
 }
